@@ -1,0 +1,15 @@
+Config options are in final_project.conf
+
+The code and config file are documented in comments.
+
+"clean" script will remove all the images, movie and data for a new run.
+
+In the animation, black squares are empty, grey squares are susceptible 
+patients, blue squares are vaccinated, green are recovered and infected 
+patients start red, and then progress through yellow to green 
+
+output files:
+
+mcarlo.avi 	- movie showing the infection progress in one run
+mcarlo???.png 	- images showing daily status in that same run
+mcarlo.txt	- optional raw dump of each run's data
